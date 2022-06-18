@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    /* border: 1px solid red; */
+    /* position: sticky; */
+    display: flex;
+    background-color: white;
+}
+#navbar ul{
+    margin: 31px 5px;
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 0px 23px;
+    color: rgb(0, 0, 0);
+    /* color: red; */
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+   transition-duration: .3s;
+   
+   color: rgb(237, 6, 164);
+}
+#logo{
+    height: 92px;
+    width: 79px;
+    margin-left: 5px;
+}
+/* #navbar::before{
+    content: "";
+    position: absolute;
+
+    z-index: -1;
+    opacity: .5;
+} */
+
+#home{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#home p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0px 70px;
+}
+#heading{
+   color: rgb(237, 6, 164);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: 2.3rem;
+    margin: 35px 10px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('bg2.jpg') center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+    height: 300px;
+    width: 100%;
+}
+#btn{
+    padding: 7px;
+    margin: 34px;
+    font-size: 1.2rem;
+    border-radius: 14px;
+    border: 0px;
+    background-color: pink;
+}
+#btn:hover{
+    transform: scale(1.1);
+    transition-duration: .3s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 6, 164);
+}
+#service{
+    /* border: 1px solid yellow; */
+    display: flex;
+    height: 650px;
+    flex-direction: row;
+    /* margin: 0px 34px; */
+    font-family: 'Kdam Thmor Pro', sans-serif;;
+    /* padding: 20px 20px; */
+}
+h2{
+    color: rgb(237, 6, 164);
+    font-size: 37px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 52px;
+}
+h3{
+    color: rgb(237, 6, 164);
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* text-shadow: 1px 1px whiste; */
+    font-family: 'Permanent Marker', cursive;
+}
+.box{
+    /* border: 1px solid blue; */
+    font-size: 1.5rem;
+    margin: 73px 36px;
+    width: 56%;
+    padding: 0px 1px;
+}
+.model{
+    /* border: 1px solid red; */
+    margin: 0px 41px;
+    padding: 0px 0px;
+   
+    
+}
+#form1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    font-size: 1.1rem;
+    flex-direction: column;
+    align-items:  center;
+    justify-content:  center;
+    text-align:  center;
+    margin: 80px 190px;
+}
+ #form1::before{
+    content: "";
+    position: absolute;
+    background: url('model.jpg') center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+    height: 580px;
+    width: 34%;
+    border-radius: 7px;
+}   
+.input{
+    border-radius: 7px;
+    margin: 9px 50px;
+    padding: 6px 7px;
+    opacity: .4;
+    color: #000000;
+    cursor: pointer;
+}
+#btn2{
+    width: 150px;
+        padding: 7px;
+    margin: 13px 59px;
+    font-size: 1.2rem;
+    border-radius: 14px;
+    border: 0px;
+    background-color: pink;
+}
+#btn2:hover{
+    transform: scale(1.1);
+    transition-duration: .3s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 6, 164);
+}
+.box p{
+    margin: 20px 10px ;
+    
+}
+h1{
+    font-size: 1.8rem;
+    color: aqua;
+    font-family: 'Montserrat', sans-serif;
+    margin: 16px 9px;
+    text-shadow: 1px 1px white;
+}
+#location{
+    /* border: 1px solid rgb(33, 252, 9); */
+    display: flex;
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 1.3rem;
+    flex-direction: column;
+    margin: 40px  ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+h4{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 8px 9px;
+}
+#location::before{
+    content: "";
+    position: absolute;
+    background: url(bg1.jpg) center center/cover;
+    z-index: -1;
+    opacity: 0.5;
+    height: 217px;
+    width: 100%;
+}
+#location p{
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{ 
+    margin: 10px ;
+    height: 50px;
+    width: 50px;
+}
+#foot{
+    margin: 0px 0px;
+}
+#copy{
+    background-color: white;
+    color: #000000;
+    text-align: center;
+}
